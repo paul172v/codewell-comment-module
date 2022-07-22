@@ -1,0 +1,43 @@
+.card {
+  min-height: 63.4rem;
+  width: 82rem;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px rgba(29, 29, 29, 0.103);
+}
+
+@media only screen and (max-width: 680px) {
+  .card {
+    width: 75rem;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .card {
+    width: 70rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 65rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .card {
+    width: 55rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 45rem;
+  }
+}

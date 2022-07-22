@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 20rem;
+}
+
+.user-photo {
+  height: 4.9rem;
+  width: 4.9rem;
+  cursor: pointer;
+}
+
+.right-side-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: -1rem;
+  margin-left: 2rem;
+}
+
+.user-details-wrapper {
+  display: flex;
+}
+
+.username {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.last-active {
+  font-size: 1.6rem;
+}
+
+.post {
+  font-size: 1.6rem;
+  margin-top: -0.5rem;
+  width: 44.7rem;
+}
+
+.feedback-wrapper {
+  display: flex;
+}
+
+.arrow-icon {
+  margin-top: 2rem;
+  height: 1rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.likes {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: 0.75rem;
+  cursor: pointer;
+}
+
+.reply,
+.report {
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    margin-left: 17rem;
+  }
+}

@@ -1,0 +1,16 @@
+.app-background {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 209, 6, 0.973),
+      rgba(139, 139, 139, 0) 70.71%
+    ),
+    linear-gradient(180deg, rgba(105, 11, 255, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(45deg, rgba(255, 108, 41, 0.8), rgba(0, 0, 255, 0) 90.71%),
+    linear-gradient(359deg, rgba(255, 112, 172, 0.8), rgba(0, 0, 255, 0) 99.71%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
